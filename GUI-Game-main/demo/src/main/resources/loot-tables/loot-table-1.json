@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Dull Sword",
+        "defaultStatValue": 20,
+        "maxStatValue": 100,
+        "statType": "Attack",
+        "dropRate": 0.1
+    },
+    {
+        "name": "Fire",
+        "defaultStatValue": 5,
+        "maxStatValue": 20,
+        "statType": "Attack",
+        "dropRate": 0.25
+    },
+    {
+        "name": "Ring",
+        "defaultStatValue": 50,
+        "maxStatValue": 125,
+        "statType": "Health",
+        "dropRate": 0.2
+    },
+    {
+        "name": "Ice",
+        "defaultStatValue": 5,
+        "maxStatValue": 20,
+        "statType": "Defence",
+        "dropRate": 0.25
+    },
+    {
+        "name": "Wood",
+        "defaultStatValue": 30,
+        "maxStatValue": 30,
+        "statType": "Defence",
+        "dropRate": 0.2
+    }
+]
