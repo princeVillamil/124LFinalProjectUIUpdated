@@ -292,6 +292,48 @@
                               <Font size="20.0" />
                            </font>
                         </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-4">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-5">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-6">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-7">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-8">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="1-9">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Separator prefWidth="200.0" styleClass="combatLevelSelectBtnSeparator" />
+                        <Button mnemonicParsing="false" styleClass="combatLevelSelectBtn" text="Boss">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
                      </children>
                      <padding>
                         <Insets left="50.0" right="50.0" />
