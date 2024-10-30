@@ -1,0 +1,97 @@
+#mainMenuBorderPane{
+    -fx-background-image: url("bg.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#test{
+
+}.menuBtn {
+    -fx-background-image: url("assets/Stontex.png"); /* Path to your image */
+    /*-fx-background-size: contain;*/
+
+    /*-fx-background-repeat: no-repeat;*/
+    /*-fx-background-position: center;*/
+    -fx-background-color: gray; /* Optional: removes default background color */
+    -fx-border-radius: 1;
+    -fx-border-width: 1;
+    -fx-border-color: gray;
+
+}
+
+
+
+/*VN Screen Style*/
+#vnBorderPane{
+         -fx-background-image: url("assets/VNPlaceHolderBG.jpg");
+         -fx-background-size: cover;
+         -fx-background-position: center;
+         -fx-background-repeat: no-repeat;
+}#vnTextArea{
+     -fx-text-fill: white;
+     -fx-background-image: url("assets/Stontex.png");
+}#vnTextArea .content{
+    -fx-background-image: url("assets/Stontex.png");
+}#vnNameLabel{
+       -fx-background-image: url("assets/Stontex.png");
+       -fx-border-radius: 1;
+       -fx-border-width: 1;
+       -fx-border-color: gray;
+}
+
+
+/*Combat Screen Style*/
+#combatItemGrid{
+
+}.combatItemSlots{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/Stontex.png");
+
+ }#combatBorderPane{
+    -fx-background-image: url("assets/woodTexture.jpg");
+}#combatCraftBtn{
+    -fx-background-image: url("assets/Stontex.png");
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+}#combatLevelSelectScreen{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/fantasyMapPlaceHolder.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: top;
+    -fx-background-repeat: no-repeat;
+}.combatLevelSelectBtn{
+    -fx-padding: 10 10 10 10;
+    -fx-pref-width: 100;
+    -fx-background-image: url("assets/Stontex.png");
+    -fx-text-fill: white;
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+
+}.combatLevelSelectBtnSeparator{
+    -fx-pref-width: 100;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-style: dashed;
+    -fx-border-width: 2px;
+}#combatLevelScreen{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/combatLevelScreenPlaceHolder.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}#combatLevelSelectScreen{
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;     
+
+}#combatLevelSelectScreen .viewport{
+    -fx-background-color: transparent; 
+
+}

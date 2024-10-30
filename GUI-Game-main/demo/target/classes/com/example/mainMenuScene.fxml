@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="mainMenuBorderPane" minHeight="600.0" minWidth="1290.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <bottom>
+        <VBox alignment="TOP_CENTER" prefWidth="1265.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Button id="mainMenuStoryBtn" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" styleClass="menuBtn" text="Story" textFill="WHITE">
+                            <padding>
+                                <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                            </padding>
+                            <font>
+                                <Font name="Baloo Da 2 Bold" size="25.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button id="mainMenuEndlessBtn" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" styleClass="menuBtn" text="Endless" textFill="WHITE">
+                            <padding>
+                                <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                            </padding>
+                            <font>
+                                <Font name="Baloo Da 2 Bold" size="25.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </VBox>
+    </bottom>
+    <center>
+        <HBox alignment="CENTER" spacing="15.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/divider-003.png" />
+                    </image>
+                </ImageView>
+                <Label id="mainMenuTitleLabel" text="TItle" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Baloo Da 2 SemiBold" size="50.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="150.0" fitWidth="150.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/divider-003.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </HBox>
+    </center>
+</BorderPane>

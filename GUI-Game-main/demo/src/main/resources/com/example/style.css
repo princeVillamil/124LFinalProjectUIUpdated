@@ -87,4 +87,11 @@
     -fx-background-size: cover;
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
+}#combatLevelSelectScreen{
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;     
+
+}#combatLevelSelectScreen .viewport{
+    -fx-background-color: transparent; 
+
 }
