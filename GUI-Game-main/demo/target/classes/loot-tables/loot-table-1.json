@@ -1,6 +1,7 @@
 [
     {
         "name": "Dull Sword",
+        "equipmentType": "weapon",
         "defaultStatValue": 20,
         "maxStatValue": 100,
         "statType": "Attack",
@@ -8,6 +9,7 @@
     },
     {
         "name": "Fire",
+        "equipmentType": "miscellaneous",
         "defaultStatValue": 5,
         "maxStatValue": 20,
         "statType": "Attack",
@@ -15,6 +17,7 @@
     },
     {
         "name": "Ring",
+        "equipmentType": "miscellaneous",
         "defaultStatValue": 50,
         "maxStatValue": 125,
         "statType": "Health",
@@ -22,6 +25,7 @@
     },
     {
         "name": "Ice",
+        "equipmentType": "miscellaneous",
         "defaultStatValue": 5,
         "maxStatValue": 20,
         "statType": "Defence",
@@ -29,6 +33,7 @@
     },
     {
         "name": "Wood",
+        "equipmentType": "miscellaneous",
         "defaultStatValue": 30,
         "maxStatValue": 30,
         "statType": "Defence",
