@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Sword",
+        "equipmentType": "Weapon",
+        "defaultStatValue": 30,
+        "maxStatValue": 500,
+        "statType": "Attack",
+        "dropRate": 0.1,
+        "imageUrl": "loot-tables/sword.png"
+    },
+    {
+        "name": "Ring",
+        "equipmentType": "Miscellaneous",
+        "defaultStatValue": 50,
+        "maxStatValue": 1000,
+        "statType": "Health",
+        "dropRate": 0.2,
+        "imageUrl": "loot-tables/ring.png"
+    },
+    {
+        "name": "Wood",
+        "equipmentType": "Miscellaneous",
+        "defaultStatValue": 10,
+        "maxStatValue": 100,
+        "statType": "Defence",
+        "dropRate": 0.2,
+        "imageUrl": "loot-tables/wood.png"
+    }
+]

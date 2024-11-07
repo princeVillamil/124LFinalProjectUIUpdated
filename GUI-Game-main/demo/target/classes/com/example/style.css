@@ -1,0 +1,194 @@
+#mainMenuBorderPane{
+    -fx-background-image: url("bg.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#test{
+
+}.menuBtn {
+    -fx-background-image: url("assets/Stontex.png"); /* Path to your image */
+    /*-fx-background-size: contain;*/
+
+    /*-fx-background-repeat: no-repeat;*/
+    /*-fx-background-position: center;*/
+    -fx-background-color: gray; /* Optional: removes default background color */
+    -fx-border-radius: 1;
+    -fx-border-width: 1;
+    -fx-border-color: gray;
+
+}
+
+
+
+/*VN Screen Style*/
+#vnBorderPane{
+         -fx-background-image: url("assets/VNPlaceHolderBG.jpg");
+         -fx-background-size: cover;
+         -fx-background-position: center;
+         -fx-background-repeat: no-repeat;
+}#vnTextArea{
+     -fx-text-fill: white;
+     -fx-background-image: url("assets/Stontex.png");
+}#vnTextArea .content{
+    -fx-background-image: url("assets/Stontex.png");
+}#vnNameLabel{
+       -fx-background-image: url("assets/Stontex.png");
+       -fx-border-radius: 1;
+       -fx-border-width: 1;
+       -fx-border-color: gray;
+}
+
+
+/*Combat Screen Style*/
+#combatItemGrid{
+
+}.combatItemSlots{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5px;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/Stontex.png");
+
+ }#combatBorderPane{
+    -fx-background-image: url("assets/woodTexture.jpg");
+}#combatCraftBtn{
+    -fx-background-image: url("assets/Stontex.png");
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+}#combatLevelSelectScreen{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/fantasyMapPlaceHolder.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: top;
+    -fx-background-repeat: no-repeat;
+}.combatLevelSelectBtn{
+    -fx-padding: 10 10 10 10;
+    -fx-pref-width: 100;
+    -fx-background-image: url("assets/Stontex.png");
+    -fx-text-fill: white;
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+
+}.combatLevelSelectBtnSeparator{
+    -fx-pref-width: 100;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-style: dashed;
+    -fx-border-width: 2px;
+}#combatLevelScreen{
+    -fx-border-radius: 1;
+    -fx-border-width: 2.5;
+    -fx-border-color: gray;
+    -fx-background-image: url("assets/combatLevelScreenPlaceHolder.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}#combatLevelSelectScreen{
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;     
+
+}#combatLevelSelectScreen .viewport{
+    -fx-background-color: transparent; 
+
+}
+
+.selectedItem {
+    -fx-border-color: gold;
+    -fx-border-width: 2.5;
+    -fx-border-radius: 8px; 
+    -fx-background-radius: 8px; 
+    -fx-effect: dropshadow(gaussian, gold, 10, 0, 0, 0); 
+    -fx-background-color: rgba(255, 223, 0, 0.1); 
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.selectedItem:hover {
+    -fx-border-color: yellow;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow(gaussian, yellow, 15, 0, 0, 0); 
+    -fx-background-color: rgba(255, 223, 0, 0.2); 
+}
+
+
+.selectedItemDarkGold {
+    -fx-border-color: #CD7F32; 
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px; 
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, #CD7F32, 10, 0, 2, 2); 
+    -fx-background-color: rgba(205, 127, 50, 0.1); 
+    -fx-transition: all 0.3s ease-in-out; 
+}
+
+.selectedItemDarkGold:hover {
+    -fx-border-color: #F1C40F; 
+    -fx-border-width: 4px;
+    -fx-effect: dropshadow(gaussian, #F1C40F, 15, 0, 0, 0); 
+    -fx-background-color: rgba(241, 196, 15, 0.2); 
+}
+
+
+.selected-border {
+    -fx-border-color: red;
+    -fx-border-width: 5px;
+    -fx-border-style: solid;
+    -fx-border-radius: 12px; 
+    -fx-background-radius: 12px; 
+    -fx-effect: dropshadow(gaussian, red, 12, 0, 3, 3); 
+    -fx-background-color: rgba(255, 0, 0, 0.1);
+    -fx-transition: all 0.3s ease-in-out; 
+}
+
+.selected-border:hover {
+    -fx-border-color: darkred;
+    -fx-border-width: 6px;
+    -fx-effect: dropshadow(gaussian, darkred, 20, 0, 0, 0); 
+    -fx-background-color: rgba(139, 0, 0, 0.2); 
+}
+
+
+.disabledButtonStyle {
+    -fx-background-color: linear-gradient(#ff6f00, #ffb74d);
+    -fx-text-fill: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 2, 2); 
+}
+
+
+.disabledButtonStyle:hover {
+    -fx-background-color: linear-gradient(#ff8f00, #ff9800);
+    -fx-effect: dropshadow(gaussian, #ffeb3b, 10, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+
+.disabledButtonStyle:disabled {
+    -fx-opacity: 0.5;
+    -fx-background-color: #888888;
+    -fx-text-fill: #aaaaaa;
+    -fx-border-color: #555555;
+    -fx-border-width: 2;
+    -fx-background-radius: 10px;
+    -fx-effect: null;
+}
+
+
+.disabledButtonStyle:focused {
+    -fx-background-color: linear-gradient(#ffa000, #ffca28);
+    -fx-border-color: #ff5722;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, #ff5722, 10, 0, 0, 0); 
+}
+
+
+.disabledButtonStyle:hover .button-graphic {
+    -fx-effect: dropshadow(gaussian, #ffeb3b, 10, 0, 0, 0); 
+}

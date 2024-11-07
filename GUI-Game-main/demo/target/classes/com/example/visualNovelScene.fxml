@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="vnBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox>
+                    <children>
+                        <HBox id="vnLeftHbox" alignment="BOTTOM_RIGHT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <ImageView id="vnLeftHboxImageView" pickOnBounds="true" HBox.hgrow="ALWAYS">
+                                    <image>
+                                        <Image url="@assets/characterTwo.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
+                        <HBox id="vnCenterHbox" alignment="BOTTOM_CENTER" HBox.hgrow="ALWAYS">
+                            <children>
+                                <ImageView id="vnCenterHboxImageView" pickOnBounds="true" HBox.hgrow="ALWAYS">
+                                    <image>
+                                        <Image url="@assets/characterOne.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
+                        <HBox id="vnRightHbox" alignment="BOTTOM_LEFT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <ImageView id="vnRightHboxImageView" pickOnBounds="true" HBox.hgrow="ALWAYS">
+                                    <image>
+                                        <Image url="@assets/characterThree.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+                <HBox alignment="BOTTOM_CENTER" StackPane.alignment="CENTER">
+                    <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="150.0" prefWidth="500.0">
+                            <children>
+                                <Label id="vnNameLabel" text="Long Name" textAlignment="CENTER" textFill="WHITE" wrapText="true" VBox.vgrow="ALWAYS">
+                                    <font>
+                                        <Font name="Baloo Da 2 Regular" size="20.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                                    </padding>
+                                </Label>
+                                <Pane prefHeight="150.0" prefWidth="500.0">
+                                    <children>
+                                        <TextArea id="vnTextArea" editable="false" prefHeight="150.0" prefWidth="500.0" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&#10;" wrapText="true">
+                                            <font>
+                                                <Font name="Baloo Da 2 Regular" size="15.0" />
+                                            </font>
+                                        </TextArea>
+                                    </children>
+                                </Pane>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" />
+                            </padding>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </StackPane>
+    </center>
+</BorderPane>
