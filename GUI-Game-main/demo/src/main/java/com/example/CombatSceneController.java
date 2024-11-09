@@ -13,6 +13,9 @@ import com.google.gson.reflect.TypeToken;
 
 import javafx.animation.PauseTransition;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
@@ -22,6 +25,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.HBox;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 public class CombatSceneController {
@@ -244,7 +249,29 @@ public class CombatSceneController {
         handleStageButtonClick();
     }
 
+    // actions for the stage button click
     private void handleStageButtonClick() {
+
+    //opens a the combat fxml "characterDisplayScene"
+    try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("characterDisplayScene.fxml")); 
+        Parent newWindowRoot = loader.load();
+        
+        Stage newWindowStage = new Stage();
+        
+        Scene newWindowScene = new Scene(newWindowRoot);
+        newWindowStage.setScene(newWindowScene);
+        
+        newWindowStage.initModality(Modality.APPLICATION_MODAL);
+
+        newWindowStage.setTitle("COMBAT!!!");
+        
+        newWindowStage.showAndWait();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+
+    //inventory
         int availableSlots = (int) inventorySlots.stream().filter(Objects::isNull).count();
         if (availableSlots <= 0) {
             Alert alert = new Alert(AlertType.INFORMATION);
