@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="instructionsBorderPane" minHeight="600.0" minWidth="1290.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.instructionsController">
+   <center>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <VBox id="instructionsContainer" alignment="CENTER" spacing="25.0">
+               <children>
+                  <Label text="Instructions" textFill="WHITE">
+                     <font>
+                        <Font name="Baloo Da 2 ExtraBold" size="24.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label text="Visual Novel:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Press the &quot;Spacebar&quot; or &quot;Enter&quot; keys to continue the dialogue." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Equipping:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Click an item and a gold highlight will appear, then click the equip button to equip." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- At most three items can be equipped. A weapon and two miscellaneous." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Un-equipping:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Click the first item and a gold highlight will appear. Then click the second item, this will enable the craft button." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Crafting:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Click the first item and a gold highlight will appear. Then click the second item, this will enable the craft button." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Crafting only works when two items has the similar stat type." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Crafting will increase the stat of the first item by the 50% of the stat of the second selected item." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Inventory:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- You can only hold at most 10 items." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- The un-equip button can also act as the delete button. Simply by selecting an item from the inventory then clicking the un-equip item." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Combat:" textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Baloo Da 2 Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Combat is automatic, meaning there will be no player input." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label text="- Clearing a stage will grant the players loot to enhance their equipment." textFill="WHITE" wrapText="true">
+                                 <padding>
+                                    <Insets left="25.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Baloo Da 2 Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <Button fx:id="instructionsMainMenuBtn" onAction="#openMainMenu" mnemonicParsing="false" text="Main Menu" textFill="WHITE">
+                     <font>
+                        <Font name="Baloo Da 2 ExtraBold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets left="200.0" right="200.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

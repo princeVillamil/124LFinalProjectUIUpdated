@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Lesser Slime",
+        "stage": "1-1",
+        "attack": 25,
+        "defence": 3,
+        "health": 75,
+        "imageUrl": "enemies/Sprite_SLI.gif"
+    },
+    {
+        "name": "Greater Slime",
+        "stage": "1-2",
+        "attack": 40,
+        "defence": 6,
+        "health": 100,
+        "imageUrl": "enemies/Sprite_SLI.gif"
+    },
+    {
+        "name": "Corrupted Knight",
+        "stage": "1-3",
+        "attack": 60,
+        "defence": 20,
+        "health": 300,
+        "imageUrl": "enemies/Sprite_CK.gif"
+    },
+    {
+        "name": "Lesser Skeleton",
+        "stage": "2-1",
+        "attack": 90,
+        "defence": 10,
+        "health": 630,
+        "imageUrl": "enemies/Sprite_LS.gif"
+    },
+    {
+        "name": "Greater Skeleton",
+        "stage": "2-2",
+        "attack": 120,
+        "defence": 30,
+        "health": 725,
+        "imageUrl": "enemies/Sprite_GS.gif"
+    },
+    {
+        "name": "Alchemist",
+        "stage": "2-3",
+        "attack": 500,
+        "defence": 40,
+        "health": 500,
+        "imageUrl": "enemies/Sprite_AL.gif"
+    },
+    {
+        "name": "Guard Skeleton",
+        "stage": "3-1",
+        "attack": 150,
+        "defence": 50,
+        "health": 1000,
+        "imageUrl": "enemies/Sprite_GS.gif"
+    },
+    {
+        "name": "High Guard Skeleton",
+        "stage": "3-2",
+        "attack": 200,
+        "defence": 60,
+        "health": 1500,
+        "imageUrl": "enemies/Sprite_GS.gif"
+    },
+    {
+        "name": "Crimson Talon",
+        "stage": "3-3",
+        "attack": 300,
+        "defence": 100,
+        "health": 2000,
+        "imageUrl": "enemies/Sprite_CT.gif"
+    }
+
+]

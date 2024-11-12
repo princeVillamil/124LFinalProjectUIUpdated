@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="characterDisplayBorderPane" maxHeight="300.0" minHeight="600.0" minWidth="1290.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.CharacterDisplaySceneController">
+   <left>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="600.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" minWidth="150.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox maxWidth="200.0" prefHeight="200.0" prefWidth="100.0" styleClass="characterDisplayStatsContainer">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="characterDisplayLeftCharacterNameLabel" text="Name" textFill="WHITE">
+                                 <font>
+                                    <Font name="Corbel Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/attack.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="characterDisplayLeftCharacterAttackLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/armor.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="characterDisplayLeftCharacterDefenceLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/health.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="characterDisplayLeftCharacterHealthLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="10.0" right="10.0" top="15.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="220.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="-50.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fx:id="characterDisplayLeftCharacter" fitHeight="346.0" fitWidth="254.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/placeHolderMainCharacter.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+   <right>
+      <HBox alignment="BOTTOM_LEFT" nodeOrientation="RIGHT_TO_LEFT" prefHeight="600.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" minWidth="150.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox maxWidth="200.0" prefHeight="200.0" prefWidth="100.0" styleClass="characterDisplayStatsContainer">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="characterDisplayRightCharacterNameLabel" alignment="CENTER" text="Name" textFill="WHITE">
+                                 <font>
+                                    <Font name="Corbel Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="characterDisplayRightCharacterAttackLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <ImageView fx:id="characterDisplayRightCharacterAttack" fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/attack.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="182.0">
+                                 <children>
+                                    <Label fx:id="characterDisplayRightCharacterDefenceLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <ImageView fx:id="characterDisplayRightCharacterDefence" fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/armor.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="characterDisplayRightCharacterHealthLabel" text="---" textFill="WHITE">
+                                       <font>
+                                          <Font name="Corbel Light" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <ImageView fx:id="characterDisplayRightCharacterHealth" fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/health.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="10.0" right="10.0" top="15.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="220.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="-50.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fx:id="characterDisplayRightCharacter" fitHeight="346.0" fitWidth="254.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/placeHolderMainCharacter.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </right>
+</BorderPane>
