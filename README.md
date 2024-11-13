@@ -21,7 +21,7 @@
 </ol>
 
 <h1>
-  Development Team
+  Development Team (GUIssica Soho)
 </h1>
 <table>
   <thead>
@@ -65,6 +65,11 @@
     </tr>
   </tbody>
 </table>
+
+<br>
+<br>
+
+<p><i>This program was developed as a project requirement for the CSS124L course.</i></p>
 
 
 
