@@ -21,7 +21,7 @@
 </ol>
 
 <h1>
-  Development Team
+  Development Team (GUIssica Soho)
 </h1>
 <table>
   <thead>
