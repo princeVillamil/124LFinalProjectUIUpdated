@@ -1,7 +1,7 @@
 <img src="https://github.com/user-attachments/assets/a77abb38-b1b9-4ebd-b409-83eb36757b3b" alt="Readme Img">
 
 <h1>
-  📖 Synopsis
+  Synopsis
 </h1>
 <p>
   Forged is a unique blend of idle RPG mechanics and immersive visual novel storytelling, designed for casual gameplay. In Forged, players step into the role of a young knight whose family has been taken from him, leaving him only with their legacy. As you advance through 9 stages, you’ll face diverse enemies and powerful bosses, gathering loot to upgrade your equipment and pursue your mission of vengeance.<br><br>
@@ -10,7 +10,7 @@
 </p>
 
 <h1>
-  ⚙️ Features
+  Features
 </h1>
 <ol>
   <li><b>Crafting</b> - A unique crafting system that lets players enhance their gear and customize their playstyle.</li>
@@ -21,7 +21,7 @@
 </ol>
 
 <h1>
-  👥Development Team
+  Development Team
 </h1>
 <table>
   <thead>
