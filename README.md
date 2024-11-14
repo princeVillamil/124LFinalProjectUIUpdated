@@ -25,46 +25,61 @@
 </h1>
 <table>
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Role</th>
-    </tr>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Email</th>
+    <th>GitHub Username</th>
+  </tr>
   </thead>
   <tbody>
     <tr>
       <td>Kyle Philip Ballesteros</td>
       <td>Project Manager & Game Designer</td>
+      <td>kyleipe26@gmail.com</td>
+      <td>Sakurakaze26</td>
     </tr>
     <tr>
       <td>William Aguilar</td>
       <td>Game Writer</td>
+      <td>aguilar.williamdaniel@gmail.com</td>
+      <td>whaleyum</td>
     </tr>
     <tr>
       <td>Yves Dela Cruz</td>
       <td>Game Artist</td>
+      <td>ymsdelacruz20@gmail.com</td>
+      <td>CoderMane21TR</td>
     </tr>
     <tr>
       <td>Arvin Liel Obayan</td>
       <td>Game Artist</td>
+      <td>arvin.liel.obayan2904@gmail.com</td>
+      <td>SpicyJeokbal</td>
     </tr>
     <tr>
       <td>Hezekiah Pasamonte</td>
       <td>Programmer</td>
+      <td>myrr.pasamonte99@gmail.com</td>
+      <td>MiracleMirror99</td>
     </tr>
     <tr>
       <td>Nicko Rodavia</td>
       <td>Programmer</td>
+      <td>nickorodavia0508@gmail.com</td>
+      <td>nicko-08</td>
     </tr>
     <tr>
       <td>Shaun Owen Mallari</td>
       <td>Programmer</td>
+      <td>shaunmallari09@gmail.com</td>
+      <td>nuahs07</td>
     </tr>
     <tr>
       <td>Jefferey Vill</td>
       <td>UI/UX Designer</td>
+      <td>jeffreyvillamilwork@gmail.com</td>
+      <td>princeVillamil</td>
     </tr>
   </tbody>
 </table>
-
-
-
